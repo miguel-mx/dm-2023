@@ -1,0 +1,160 @@
+body, html {
+    font-family: 'Exo', sans-serif;
+}
+
+
+.hero-image {
+    background-image: url("../img/BANNER-DEGUSTACIONES-MOVIL1.png");
+    /*height: 50%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 609px;
+}
+
+h1 {
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #CF305A;
+}
+
+#presentacion {
+    padding: 80px 0;
+}
+
+#presentacion p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #333233;
+}
+
+#infographic {
+    padding: 50px 0;
+    background-color: #F0F0F0;;
+}
+
+.info-icon {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.info-graph-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #333233;
+    margin-bottom: 4px;
+}
+
+.info-graph-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #767676;
+}
+
+/* Pláticas */
+#program {
+    padding: 80px 0;
+}
+
+.plenaria {
+    padding: 40px 0;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #CF305A;
+    margin-bottom: 0.2rem;
+}
+
+.speaker-container {
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+.speaker {
+    font-weight: 500;
+    line-height: 19px;
+    color: #B8B763;
+}
+
+.university {
+    font-weight: 400;
+    line-height: 19px;
+    color: #767676;
+}
+
+.abstract {
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    color: #333233;
+}
+
+
+/*Pié de página*/
+#footer {
+    padding: 72px 0;
+    background-color: #333233;
+}
+
+#footer hr {
+    margin-top: 64px;
+    color: #FFFFFF;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (min-width: 576px) {
+
+    .hero-image {
+        background-image: url("../img/BANNER-DEGUSTACIONES1.png");
+        /*height: 50%;*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 609px;
+    }
+
+    #presentacion p {
+        max-width: 70%;
+    }
+
+    .title {
+        max-width: 720px;
+    }
+
+    .abstract {
+        max-width: 720px;
+    }
+
+    .speaker-container {
+        margin-top: 0;
+    }
+
+    .university {
+        margin-left: .8rem;
+    }
+
+
+}
